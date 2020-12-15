@@ -3,13 +3,30 @@
     background-color: white;
     border: 2px solid black;
     height: 350px;
-    width: 400px;
+    margin: auto;
+    width: 50%;
+    border: 10px solid purple;
+    padding: 10px;
+  
 }
 
 .buttons001 {
-    background-color: dodgerblue;
+    background-color: purple;
     color: white;
     width: 70px;
     height: 30px;
     border-radius: 5px;
+}
+.buttons002 {
+    background-color: purple;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#font001 {
+    text-align: center;
+    font-size: large;
+    color: black;
 }
