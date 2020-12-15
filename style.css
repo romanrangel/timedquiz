@@ -2,18 +2,17 @@
     border-radius: 5px;
     background-color: white;
     border: 2px solid black;
-    height: 350px;
+    height: 500px;
     margin: auto;
-    width: 50%;
+    width: 70%;
     border: 10px solid purple;
     padding: 10px;
-  
 }
 .buttons001 {
     background-color: purple;
     color: white;
-    width: 70px;
-    height: 30px;
+    width: auto;
+    height: auto;
     border-radius: 5px;
 }
 .buttons002 {
