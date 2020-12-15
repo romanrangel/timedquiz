@@ -83,3 +83,8 @@ function next001() {
         message004.innerHTML = "<button class=buttons002 onclick=repeat001()>Repeat</button>";
     }
 }
+function timer001() {
+    c = c - 1;
+    if (c < 75) {
+        time001.innerHTML = c;
+    }
