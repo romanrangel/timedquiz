@@ -36,3 +36,50 @@ function q1i() {
     message002.innerHTML = "";
     message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button>";
 }
+
+function q1i() {
+    message003.innerHTML = "Incorrect.";
+    message002.innerHTML = "";
+    message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button>";
+}
+
+function next001() {
+    if (a == "2") {
+        message001.innerHTML = question001[1];
+        message002.innerHTML = options002;
+        message003.innerHTML = "";
+        number001.innerHTML = a++;
+        message004.innerHTML = "";
+    }
+
+    else if (a == "3") {
+        message001.innerHTML = question001[2];
+        message002.innerHTML = options003;
+        message003.innerHTML = "";
+        number001.innerHTML = a++;
+        message004.innerHTML = "";
+    }
+
+    else if (a == "4") {
+        message001.innerHTML = question001[3];
+        message002.innerHTML = options004;
+        message003.innerHTML = "";
+        number001.innerHTML = a++;
+        message004.innerHTML = "";
+    }
+
+    else if (a == "5") {
+        message001.innerHTML = question001[4];
+        message002.innerHTML = options005;
+        message003.innerHTML = "";
+        number001.innerHTML = a++;
+        message004.innerHTML = "";
+    } else {
+        window.clearInterval(update);
+        c = "-";
+        message001.innerHTML = "End of Quiz";
+        message002.innerHTML = "";
+        message003.innerHTML = "";
+        message004.innerHTML = "<button class=buttons002 onclick=repeat001()>Repeat</button>";
+    }
+}
