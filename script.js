@@ -19,6 +19,7 @@ var b = 0;
 b++;
 
 //This function links the timer to the 'begin' button. When button is clicked, the 'begin' button disappears and the first question appears.
+var c = c;
 function begin001() {
     c = 60;
     disappear001.innerHTML = "";
@@ -40,7 +41,7 @@ function q1i() {
     message002.innerHTML = "";
     message004.innerHTML = "<button class=buttons002 onclick=next001()>Next</button>";
     c = c - 10;
-    if (count>0) {
+    if (c>0) {
         time001.innerHTML = c;
     }
 }
@@ -86,6 +87,7 @@ function next001() {
     }
 }
 // This function controls the timer. This sets the timer at 75 seconds. When the timer becomes less than 1, the webpage will display, "Time's up!"
+var c = c;
 function timer001() {
     c = c - 1;
     if (c < 60) {
