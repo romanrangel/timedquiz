@@ -21,7 +21,7 @@ b++;
 
 //This function links the timer to the 'begin' button. When button is clicked, the 'begin' button disappears and the first question appears.
 function begin001() {
-    c = 75;
+    c = 60;
     disappear001.innerHTML = "";
     message001.innerHTML = question001[0];
     message002.innerHTML = options001;
@@ -89,7 +89,7 @@ function next001() {
 // This function controls the timer. This sets the timer at 75 seconds. When the timer becomes less than 1, the webpage will display, "Time's up!"
 function timer001() {
     c = c - 1;
-    if (c < 75) {
+    if (c < 60) {
         time001.innerHTML = c;
     }
     if (c < 1) {
