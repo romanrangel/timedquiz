@@ -1,4 +1,3 @@
-//Quiz questions added and assigned to a variale which holds them in an array.
 var question001 = ["Commonly use data types DO NOT include:",
     "The condition in an if / else statement is enclosed within ______.",
     "Arrays in JavaScript can be used to store ______.",
