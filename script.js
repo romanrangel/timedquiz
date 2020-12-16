@@ -1,7 +1,7 @@
 var question001 = ["Commonly use data types DO NOT include:",
     "The condition in an if / else statement is enclosed within ______.",
     "Arrays in JavaScript can be used to store ______.",
-    "String values must be enclosed within ______ when being a science variables.",
+    "String values must be enclosed within ______ when being assigned to variables.",
     "A very useful tool used during development and debugging for printing content to the debugger is:"
 ];
 
