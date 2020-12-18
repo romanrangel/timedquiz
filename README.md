@@ -1,5 +1,7 @@
 # Coding Challange Quiz
 
+This quiz was made with knowledge learned from bootcamp and following tutorials.
+
 ## How to:
 This quiz consits of 5 questions, with 4 multiple choice answers each. When you click 'begin', you will be asked the series of questions. You will be required to choose one answer for each. If you are correct, you will see a message saying, "correct," and your score will go up. If your answer is incorrect, the message displayed will be, "incorrect," and your time will decrease by ten seconds.
 
